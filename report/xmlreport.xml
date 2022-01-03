@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="65.709">
+    <testcase classname="This is the login ORange HRM site" name="This is login scenario" time="61.647">
+        <failure message="Browsing context has been discarded&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [f2eb9c26-8661-4829-9a48-abbe7e3fec9a, findElement {using=id, value=txtUsername}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:57529, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19164, moz:profile: C:\Users\vinow\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:57529/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f2eb9c26-8661-4829-9a48-abbe7e3fec9a" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given proceed to login page.................................................passed
+When user enters "Admin"and password "admin123".............................failed
+And click button............................................................skipped
+Then click menu bar Recruitment.............................................skipped
+And click canditates........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f2eb9c26-8661-4829-9a48-abbe7e3fec9a, findElement {using=id, value=txtUsername}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:57529, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19164, moz:profile: C:\Users\vinow\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:57529/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f2eb9c26-8661-4829-9a48-abbe7e3fec9a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at StepDefinition.DataExample.user_enters_admin_and_password(DataExample.java:24)
+	at ✽.user enters "Admin"and password "admin123"(file:///C:/Users/vinow/eclipse-workspace/cucumberJava/src/test/resources/Features/DataExample.feature:5)
+]]></failure>
+    </testcase>
+    <testcase classname="This is the login ORange HRM site" name="This is login scenario 2" time="3.858">
+        <failure message="Failed to decode response from marionette&#10;Build info: version: '4.0.0', revision: '3a21814679'&#10;System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [5736ace1-5cc5-41cb-8181-c43692f92711, findElement {using=id, value=txtUsername}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:49362, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3660, moz:profile: C:\Users\vinow\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:49362/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5736ace1-5cc5-41cb-8181-c43692f92711" type="org.openqa.selenium.WebDriverException"><![CDATA[Given proceed to login page.................................................passed
+When user enters "admin23"and password "admin12"............................failed
+And click button............................................................skipped
+Then click menu bar Recruitment.............................................skipped
+And click canditates........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-NR9BEDFE', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5736ace1-5cc5-41cb-8181-c43692f92711, findElement {using=id, value=txtUsername}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:49362, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 3660, moz:profile: C:\Users\vinow\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:49362/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5736ace1-5cc5-41cb-8181-c43692f92711
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at StepDefinition.DataExample.user_enters_admin_and_password(DataExample.java:24)
+	at ✽.user enters "admin23"and password "admin12"(file:///C:/Users/vinow/eclipse-workspace/cucumberJava/src/test/resources/Features/DataExample.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
